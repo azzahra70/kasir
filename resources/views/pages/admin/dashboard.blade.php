@@ -5,48 +5,64 @@
 @section('content')
     <div class="dashboard">
         <div class="grid">
-            <!-- Jumlah Anggota -->
+            <!-- Jumlah Kategori -->
             <div class="card stat-card bg-info">
                 <div class="icon">
                     <i class="fas fa-users"></i>
                 </div>
                 <div class="details">
+                    <span class="icon">📂</span>
                     <h3>Kategori</h3>
                     <p></p>
                 </div>
             </div>
 
-            <!-- Jumlah Kategori -->
+            <!-- Jumlah Produk -->
             <div class="card stat-card bg-danger">
                 <div class="icon">
                     <i class="fas fa-list-alt"></i>
                 </div>
                 <div class="details">
+                    <span class="icon">📦</span>
                     <h3>Produk</h3>
                     <p></p>
                 </div>
             </div>
 
-            <!-- Jumlah Buku -->
+            <!-- Jumlah Stok -->
             <div class="card stat-card bg-success">
                 <div class="icon">
                     <i class="fas fa-book"></i>
                 </div>
                 <div class="details">
+                    <span class="icon">🛒</span>
                     <h3>stok</h3>
                     <p></p>
                 </div>
             </div>
 
-            <!-- Jumlah Peminjaman -->
+            <!-- Jumlah 'suplier -->
             <div class="card stat-card bg-warning">
                 <div class="icon">
                     <i class="fas fa-database"></i>
                 </div>
                 <div class="details">
-                    <h3>Jumlah Peminjaman</h3>
+                    <span class="icon">🤝</span>
+                    <h3>suplier</h3>
                     <p></p>
                 </div>
+
+                 <!-- Jumlah Transaksi -->
+            <div class="card stat-card bg-warning">
+                <div class="icon">
+                    <i class="fas fa-database"></i>
+                </div>
+                <div class="details">
+                    <span class="icon">💰</span>
+                    <h3>Transaksi</h3>
+                    <p></p>
+                </div>
+
             </div>
         </div>
     </div>

@@ -181,7 +181,7 @@
         <!-- Sidebar -->
         <aside class="sidebar" id="sidebar">
             <div class="brand">
-                <span class="logo">⚡</span> <!-- Logo bawaan HTML -->
+                <span class="logo">💰</span> <!-- Logo bawaan HTML -->
                 <span>{{ env('APP_NAME') }}</span>
             </div>
             <ul class="menu">
